@@ -22,7 +22,7 @@ public class User {
 	private long id;
 	
 	
-	@NotNull(message ="{hoaxify.constraint.username.NotNull.message}")
+	@NotNull(message = "{hoaxify.constraint.username.NotNull.message}")
 	@Size(min = 4,max =255)
 	@UniqueUsername
 	private String username;
