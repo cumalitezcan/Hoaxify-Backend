@@ -3,12 +3,12 @@ package com.hoaxify.ws.error;
 import java.util.Date;
 import java.util.Map;
 
-//import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
 import lombok.Data;
 
 @Data
-//@JsonInclude(JsonInclude.Include.NON_NULL)
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class ApiError {
 	
 	private int status;

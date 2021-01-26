@@ -36,10 +36,6 @@ public class User {
 	@Pattern(regexp="^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*$",message= "{hoaxify.constraint.password.Pattern.message}")
 	private String password;
 
-	@Override
-	public String toString() {
-		return "User [username=" + username + ", displayName=" + displayName + ", password=" + password + "]";
-	}
 	
 	
 	
